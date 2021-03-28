@@ -1,0 +1,54 @@
+.collab-container{
+	padding: 2rem 1rem;
+}
+.content-container{
+	display: flex;
+	align-items: center;
+	padding-left: 3rem;
+
+}
+.content-container h4 p{
+	font-size: 1.5em;
+	font-weight: 400;
+	text-transform: uppercase;
+
+}
+.logos-container{
+	padding: 1rem;
+	padding-right: 2rem;
+}
+.collab-logo-wrapper{
+	min-height: 100px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 2rem;
+}
+.collab-logo-wrapper a img{
+	filter: saturate(0);
+	opacity: 0.4;
+	max-height: 100px;
+	width: auto;
+	max-width: 100%;
+}
+@media only screen and (max-width: 1030px){
+	.content-container h4{
+		font-size: 1.2em;
+	}
+}
+@media only screen and (max-width: 860px){
+	.content-container h4 p{
+		display: block;
+	}
+	.content-container{
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+		
+	}
+	.content-container h4{
+		margin: 0 auto;
+	}
+
+}

@@ -1,0 +1,47 @@
+.stats{
+
+}
+.stats .row{
+	padding-top: 2rem !important;
+	padding-bottom: 6rem !important;
+}
+.stats .row .col{
+	border-right: 2px solid #aaaaaa;
+}
+.stats .row .col:last-child{
+	border-right: none;
+}
+.stats-number{
+	color: #49f;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: 600;
+
+}
+.stats-text{
+	color: #555555;
+	font-weight: 600;
+	text-align: center;
+	font-size: 1.3em;
+	
+}
+
+@media only screen and (max-width: 860px){
+	.stats .row{
+		padding-bottom: 3rem !important;
+		padding-left: 3rem !important;
+	}
+	.stats-content{
+		padding-bottom: 2.5rem;
+		text-align: left;
+	}
+	.stats-content .stats-number{
+		text-align: left;
+	}
+	.stats-content .stats-text{
+		text-align: left;
+	}
+	.stats .row .col{
+		border-right: none;
+	}
+}

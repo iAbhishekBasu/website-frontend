@@ -1,0 +1,49 @@
+.testinomials-container{
+	padding-top: 9rem;
+	padding-bottom: 2rem;
+}
+.person .image-wrapper-person{
+	max-width: 150px;
+	margin: 1rem auto;
+
+}
+.person .image-wrapper-person .person-pic{
+	max-width:100%;
+	margin: 0 auto;
+
+}
+
+.card.person{
+	max-width: 800px;
+	min-height: 450px;
+	background: transparent;
+	border: none;
+	position: relative;
+	z-index: 9;
+
+}
+.person::before{
+	content: "";
+	height: 400px;
+	width: 35%;
+	background: #f5f5f5;
+	display: block;
+	position: absolute;
+	z-index: -1;
+	margin-left: 48.5%;
+	transform: translateX(-50%);
+	margin-top: -1rem;
+}
+@media only screen and (max-width: 860px){
+	.test-content-container{
+		padding: 0.5rem 0.9rem;
+    	font-size: 12px;
+	}
+	.person{
+		min-height: 560px !important;
+	}
+	.person::before{
+		width: 70%;
+		margin-left: 46%;
+	}
+}

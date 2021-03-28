@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&display=swap');
+
+body{
+	font-size: 14px!important;
+	font-family: 'Manrope' , 'Gothic A1',-apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	color: #464646;
+}
+*{
+	scroll-behavior: smooth;
+}
+.bdlight-text{
+	color: rgba(0,0,0,.7) !important;
+}
+.card{
+	border-radius: unset !important;
+}
+.jumbotron-special{
+	padding: 4px!important;
+	background: #49f;
+	border-radius: unset;
+}
+.special-headers{
+	color: #000;
+    padding: 1rem 0px;
+    width: fit-content;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem auto !important;
+    margin-bottom: 3rem !important;
+    padding-bottom: 1rem;
+}
+.special-headers::after{
+	content: "";
+	height: 2px;
+	width: 45px;
+	margin-top: 0.9rem;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: #000;
+}
+.special-sub-headers{
+	color:#292929;
+    padding: 1rem 0px;
+    width: fit-content;
+    font-size: 29px;
+    font-weight: 600;
+    /*border-bottom: 2.5px solid ;*/
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
+}
+.special-sub-headers::after{
+	content: "";
+	height: 2px;
+	width: 80%;
+	margin-top: 0.2rem;
+	margin-left: auto;
+	margin-right: -15%;
+	display: block;
+	background-color: #292929;
+}
+.main-container{
+	max-width: 100%;
+
+}
+
+.img-100{
+	width: 100%;
+}
+.img-click{
+	cursor: pointer;
+}
+.sub-special-headers{
+	font-size: 2.2em;
+	font-weight: 400;
+}
+
+.theme-bg{
+	background-color: #49f;
+}
+.dark-bg{
+	background: #eeeeee;
+}
+.mw-60{
+	max-width: 60%;
+	margin: 0 auto;
+}
+.mw-80{
+	max-width: 80%;
+	margin: 0 auto;
+}
+.h-100{
+	height: 100% !important;
+}
+.bdr-25{
+	border-radius: 0.25rem;
+}
+.w-100{
+	width: 100%;
+}
+.w-100vw{
+	width: 100vw;
+}
+.btn-special{
+	background-color: #49f;
+	border: none;
+	color: #fff;
+}
+.btn-special:hover{
+	background-color: #3e8eee;
+	color: #fff;
+}
+@media only screen and (max-width: 860px){
+	body{
+		font-size: 13px !important;
+	}
+	.special-headers{
+		font-size: 35px;
+		margin-bottom: 1.5rem !important;
+	}
+	.special-sub-headers{
+		font-size: 27px;
+	}
+	.mw-60{
+		max-width: 100%;
+	}
+	.mw-80{
+		max-width: 100%;
+	}
+	.mob-flex-col{
+		flex-direction: row;
+	}
+	.mpad-0{
+		padding: 0 !important;
+	}
+	.mpad-1{
+		padding: 1rem!important;
+	}
+	.p-3{
+		padding: 1rem 0.5rem !important;
+
+	}
+}

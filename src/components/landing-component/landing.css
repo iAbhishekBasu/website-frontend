@@ -1,0 +1,115 @@
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  
+}
+.main-container{
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+hr {
+      margin-top: 55px;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+
+
+
+.main-slide{
+  height: 100vh;
+  width: 100%;
+  background-color: transparent;
+
+}
+.carousel-slider-wrapper{
+  cursor: unset !important;
+}
+
+.slide-background-image{
+    background-size: 130% !important; 
+    height: 100%; 
+    width: 100%; 
+    position: absolute; 
+    background-position: center !important;
+    z-index: -1;
+    top: 0; 
+    left: 0;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px) contrast(-20%) brightness(-5%);
+    margin: 0
+}
+.slide-background-image.firstSlider{
+    background:   linear-gradient(rgba(54, 61, 194,0.001), rgba(54, 61, 194,0.001)), 
+                  linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),
+                  radial-gradient(circle farthest-corner at 40px 50vh,#49f 20%, transparent),
+                  url('../../media/images/1gwkpqhk.jpg');
+}
+
+.slide-background-image.secondSlider{
+    background:   linear-gradient(rgba(54, 61, 194,0.001), rgba(54, 61, 194,0.001)), 
+                  linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),
+                  radial-gradient(circle farthest-corner at 40px 50vh,#49f 20%, transparent),
+                  url('../../media/images/main-bg-2.webp');
+}
+
+.slide-background-image.thirdSlider{
+    background:   linear-gradient(rgba(54, 61, 194,0.001), rgba(54, 61, 194,0.61)), 
+                  linear-gradient(rgba(0, 0, 0,0.2), rgba(0, 0, 0,0.2)),
+                  radial-gradient(circle farthest-corner at 40px 50vh,#49f 20%, #49f);
+    
+}
+
+.carousel-indicators{
+  display: none !important;
+
+}
+.main-content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-slide .slider-img{
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.slider-data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.slider-data div{
+  padding-left: 2rem;
+  color: #fff !important;
+  font-size: 1.4em;
+  font-weight: 200;
+  word-spacing: 0.4em;
+}
+.slider-data div font{
+  font-size: 2em;
+  color: #ff9;
+}
+
+
+@media only screen and (max-width: 860px){
+  .main-slide .slide-background-image{
+    background-size: cover !important;
+    background-repeat: no-repeat;
+  }
+}

@@ -1,0 +1,61 @@
+.team-container{
+	margin-bottom: -8rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+.image-wrapper{
+}
+.image-wrapper .card-img-top{
+	width: 100%;
+	max-width: 100%;
+}
+.jumbotron-special{
+	display: none;
+	margin-left: -0.25rem;
+	margin-right: -0.25rem;
+}
+
+.team-member{
+	display: flex;
+}
+.team-member .display{
+	font-size: 1.4em;
+	font-weight: 400;
+}
+.team-member .card{
+	align-self: stretch;
+	border:none;
+	padding: 0;
+}
+.team-member .card .card-body .card-text{
+	padding-bottom: 1.2rem;
+}
+.links-container{
+	
+	display: flex;
+	align-items: baseline;
+	margin-bottom: -1.25rem;
+
+}
+.links-container ul{
+	padding: 0.5rem !important;
+	margin: 0 !important;
+	margin-bottom: 0;
+	margin-top: auto;
+	list-style: none;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.links-container ul li{
+	align-self: center;
+	
+}
+
+@media only screen and (max-width: 860px){
+	.team-container{
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+}

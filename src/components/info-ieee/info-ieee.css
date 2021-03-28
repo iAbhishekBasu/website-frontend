@@ -1,0 +1,28 @@
+.ieee-info{
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 3rem !important;
+}
+.container-cover{
+	
+	
+	
+}
+.theme-ieee-bg {
+	background-color: #9a9a9a;
+	
+}
+.theme-ieee-bg h2{
+
+}
+.container-cover .card{
+	background-color: transparent;
+}
+
+@media only screen and (max-width: 1024px){
+	.container-cover{
+		
+	
+	
+	}
+}

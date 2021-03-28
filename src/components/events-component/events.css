@@ -1,0 +1,26 @@
+.card{
+	padding: 0;
+	margin: 1rem;
+}
+.image-wrapper{
+	max-height: 200px;
+	overflow: hidden;
+	width: 100%;
+}
+.banner{
+	background-color: rgb(64, 144, 240);
+	padding-top: 6rem;
+}
+.grid-img-wrapper{
+	align-items: center;
+}
+.grid-img{
+	padding: 2px;
+}
+.grid-img img{
+	width: 100%;
+}
+.heading{
+	font-size: 2.4em;
+	padding: 1rem;
+}

@@ -1,0 +1,54 @@
+.insight-container{
+	margin-bottom: 3rem;
+}
+.img-container{
+	background: #eeeeee;
+}
+.font-plus{
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: 600;
+	display: inline-block;
+}
+.font-mid-plus{
+	font-size: 1.3em;
+}
+.wrapper-img{
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.img-fluid{
+	max-height: 50vh;
+}
+.wrapper-content{
+	display: flex;
+	align-items: center;
+	padding-left: 3rem;
+}
+.insight-content{
+	
+}
+@media only screen and (max-width: 860px){
+	.wrapper-content{
+		padding-left: 1rem;
+		padding: 1rem;
+		padding-top: -1rem;
+		padding-bottom: 2rem;
+	}
+	.font-plus{
+		font-size: 1.4em;
+	}
+	.font-mid-plus{
+		font-size: 1em;
+	}
+	.full-content{
+		padding: 0.4rem;
+		margin: 0 auto;
+	}
+	.custom-text{
+		display: inline;
+		padding: 0.3rem;
+	}
+}

@@ -1,0 +1,49 @@
+
+.video-container{
+	padding: 2rem 1rem;
+	padding-right: 0;
+	display: flex;
+	align-items: center;
+}
+.content-wrapper{
+	padding: 2rem 1rem !important;
+	display: block;
+	align-items: center;
+}
+.video-container .video-wrapper{
+	
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+}
+.video-container .video-wrapper .vjs-tech ,.video-container .video-wrapper .vjs-poster{
+	width: 100%;
+}
+
+.about-us{
+	
+}
+.video-js{
+	max-width: 100%;
+	background-color: transparent !important;
+	max-height: 100%;
+}
+.vjs-poster{
+	background-color: transparent !important;
+}
+
+@media only screen and (max-width: 860px ){
+
+	.video-container{
+		padding: 0.5rem;
+	}
+	.video-container .video-wrapper{
+		max-width: 95%;
+	}
+	.about-us .content-wrapper{
+		padding-right: 0!important;
+		padding-left: 0!important;
+	}
+}
