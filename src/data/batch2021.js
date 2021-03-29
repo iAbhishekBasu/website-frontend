@@ -1,57 +1,85 @@
 const Batch2021 = [
-					{
-						name: "Subhayan Akhuli",
-						post: "Chair",
-						img: require("../media/batch2021/Akhuli.jpg"),
-						fb: "https://www.facebook.com/animeshdatts",
-						insta: "https://www.instagram.com/animesh.suman98/",
-						linkedin: "https://www.linkedin.com/in/animesh-datta-60770115b/?originalSubdomain=in",
-						mail: "",
-
-
-					},
-					{
-						name: "Rohan Choudhury",
-						post: "Vice Chair",
-						img: require("../media/images/nophotomale.png"),
-						fb: "https://www.facebook.com/Abhish3kSunny",
-						insta: "https://instagram.com/abhish3k_sunny/",
-						linkedin: "https://www.linkedin.com/in/zer-0-ne/",
-						mail: "",
-
-					},
-					{
-						name: "Sugata Mondal",
-						post: "Secretary",
-						img: require("../media/batch2021/Sugata.jpg"),
-						fb: "https://www.facebook.com/monsij98",
-						insta: "https://instagram.com/monsij98/",
-						linkedin: "https://www.linkedin.com/in/monsijb/",
-						mail: "",
-
-					},
-					{
-						name: "Arka Bera",
-						post: "Treasurer",
-						img: require("../media/batch2021/arka.jpg"),
-						fb: "https://www.facebook.com/profile.php?id=100006949692977",
-						insta: "https://instagram.com/amitav.507/",
-						linkedin: "https://www.linkedin.com/in/amitava-das-77b411155/",
-						mail: "",
-
-					},
-					{
-						name: "Anurag sarkar",
-						post: "Convener",
-						img: require("../media/batch2021/Anurag.jpg"),
-						fb: "https://www.facebook.com/Prateekee",
-						insta: "https://instagram.com/granger2423/",
-						linkedin: "https://www.linkedin.com/in/prateekee-chatterjee/",
-						mail: "",
-
-					}
-					
-				];
-
+   {
+      name: "Subhayan Akhuli",
+      post: "Chair",
+      img: require("../media/batch2021/Akhuli.jpg"),
+      fb: "https://www.facebook.com/subhayan.akhuli.316",
+      insta: "https://instagram.com/prisonerofthelight_._/",
+      linkedin: "https://www.linkedin.com/in/subhayanakhuli/",
+      mail: "subhayan.akhuli@gmail.com",
+   },
+   {
+      name: "Rohan Choudhury",
+      post: "Vice Chair",
+      img: require("../media/images/Rohan.jpg"),
+      fb: "https://www.facebook.com/rohuunn",
+      insta: "https://instagram.com/rohansees",
+      linkedin: "https://www.linkedin.com/in/rohanc2000/",
+      mail: "",
+   },
+   {
+      name: "Sugata Mondal",
+      post: "Secretary",
+      img: require("../media/batch2021/Sugata.jpg"),
+      fb: "https://www.facebook.com/sugata.mondal.10",
+      insta: "",
+      linkedin: "https://www.linkedin.com/in/sugata-mondal-24ab2a159/",
+      mail: "sugata.mondal@outlook.com",
+   },
+   {
+      name: "Anurag Sarkar",
+      post: "Convener",
+      img: require("../media/batch2021/arka.jpg"),
+      fb: "https://www.facebook.com/Orneyfish.12382",
+      insta: "https://instagram.com/orneyfish",
+      linkedin: "https://www.linkedin.com/in/anurag-sarkar-97127018a/",
+      mail: "",
+   },
+   {
+      name: "Arka Bera",
+      post: "Treasurer",
+      img: require("../media/batch2021/Anurag.jpg"),
+      fb: "https://www.facebook.com/arka.panda98",
+      insta: "https://instagram.com/arka.panda",
+      linkedin: "https://www.linkedin.com/in/arkabera/",
+      mail: "",
+   },
+   {
+      name: "Shantaneel Halder",
+      post: "Webmaster",
+      img: require("../media/batch2021/Shantaneel.jpg"),
+      fb: "https://www.facebook.com/william.derozio",
+      insta: "https://instagram.com/neel_5972",
+      linkedin: "https://www.linkedin.com/in/shantaneel-halder-9a0417160/",
+      mail: "",
+   },
+   {
+      name: "Sourav Nag",
+      post: "Creative Head",
+      img: require("../media/batch2021/Nag.jpg"),
+      fb: "https://www.facebook.com/sourav.nag.1422",
+      insta: "https://instagram.com/_the_lost_guy___",
+      linkedin: "https://www.linkedin.com/in/sourav-nag-8007b416a/",
+      mail: "",
+   },
+   {
+      name: "Soumik Paul",
+      post: "Technical Head",
+      img: require("../media/batch2021/Soumik.jpg"),
+      fb: "https://www.facebook.com/soumik.paul.503",
+      insta: "https://instagram.com/ig_paulsoumik",
+      linkedin: "https://www.linkedin.com/in/soumik-paul-6b46b2172/",
+      mail: "",
+   },
+   {
+      name: "Sutirtha Chowdhury",
+      post: "Sponsorship Head",
+      img: require("../media/batch2021/Sutirtha.jpg"),
+      fb: "https://www.facebook.com/sayan.chowdhury1997",
+      insta: "https://instagram.com/chowdhury_sutirtha/",
+      linkedin: "",
+      mail: "sutirthachow97@gmail.com",
+   },
+];
 
 export default Batch2021;
