@@ -7,7 +7,7 @@ import InfoG from "../infographics-component/info.component"
 import AboutUs from "../about-us/about-us.component"
 import Events from "../events-component/events.component"
 import InfoIEEE from "../info-ieee/info-ieee.component"
-import React, { Component } from "react";
+import React from "react";
 import PostDataService from "../../services/post.service"
 import Fade from 'react-reveal/Fade';
 import ActivitiesHome from "../home-activities/home-activities.component.js"
@@ -17,26 +17,14 @@ import Team from "../team-component/team.component.js"
 import Testinomials from "../testinomial-component/testinomial.component.js"
 import Collab from "../collab-component/collab.component.js"
 import Contact from "../contact-component/contact.component.js"
+import Loader from '../loader/loader'
 
 
-class Home extends Component {
-		constructor(props) {
-	    super(props);
+function Home (){
 
-	    this.state = {
-	    };
-	  }
-
-	  componentDidMount() {
-	   
-	    
-	  }
-
-  
-  render() {
       return (
+		  
         <div>
-
           <Landing/>
 	      <InfoG/>
 	      <AboutUs/>
@@ -48,11 +36,9 @@ class Home extends Component {
 	      <Testinomials/>
 	      <Collab/>
 	      <Contact/>
-
         </div>
-          
-      )
-  }
-}
+	  )
+	}
+
 
 export default Home;
