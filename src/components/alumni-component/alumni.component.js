@@ -1,32 +1,28 @@
-import React, { Component } from "react";
-import { Link, Redirect, Switch, Route } from "react-router-dom";
 import "../common.css"
+
+import React, {Component} from "react";
+import {Link, Redirect, Route, Switch} from "react-router-dom";
+
 import Batch2019 from "../../data/batch2019"
 
 export default class Alumni extends Component {
-	  constructor(props) {
-	    super(props);
-	    this.func = this.func.bind(this);
-	    this.state = {
-	    	
-	    };
-	  }
+  constructor(props) {
+    super(props);
+    this.func = this.func.bind(this);
+    this.state = {
 
+    };
+  }
 
-	  componentDidMount() {
-	  	console.log(Batch2019);
-	  	this.func();
-	  }
-	  func(){
-	  	
-	  	
-	  }
+  componentDidMount() {
+    console.log(Batch2019);
+    this.func();
+  }
+  func() {}
 
+  render() {
 
-	  render() {
-	  	
-	  	
-	  	 return(
+                 return(
 	  	 	<div className="main-container">
 	  	 		<div className="jumbotron banner border-0 rounded-0">
 	        		<h1 className="display-3 text-light text-center"> Alumni </h1>
@@ -37,7 +33,8 @@ export default class Alumni extends Component {
 	  	 					<div className="card">
 
 	  	 						<div className="image-wrapper">
-					  				<img className="card-img-top" src={ `${ member.img.default }`} />
+					  				<img className="card-img-top" src={
+        `${member.img.default}`} />
 					  			</div>
 					  			
 					  			
