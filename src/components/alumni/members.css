@@ -1,0 +1,61 @@
+.facad{
+	margin-bottom: 4rem;
+}
+
+.facad-card{
+	max-width: 350px;
+	margin: 0 auto;
+}
+
+.facad-card-group{
+	
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+
+
+.side-dock{
+	width: fit-content;
+	display: none;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: transparent;
+	color: #fff !important;
+	padding: 1rem;
+	padding-left: 0;
+	position: fixed;
+	left: 0;
+	top: 50%;
+	z-index: 22;
+}
+.side-dock-options{
+	
+	text-align: left;
+	display: none;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background: #49f;
+
+}
+.side-dock-options.active-dock{
+	display: flex;
+}
+.side-dock button{
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	padding: 0.5rem;
+}
+.side-dock .dock-opener{
+	margin-right: -2rem;
+    background: #49f;
+    max-height: 3rem;
+    align-self: center;
+}
+
+@media only screen and (max-width: 860px){
+	.side-dock{
+		display: flex;
+	}
+}

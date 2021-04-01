@@ -19,7 +19,7 @@ const Batch2022 = [
       mail: "",
    },
    {
-      name: "Dhrubajyoti Roy",
+      name: "Dhrubajyoti Kumar",
       post: "Senior Executive Member",
       img: require("../media/batch2022/dhrubajyoti.jpg"),
       fb: "https://www.facebook.com/monsij98",
@@ -94,3 +94,4 @@ const Batch2022 = [
 ];
 
 export default Batch2022;
+
