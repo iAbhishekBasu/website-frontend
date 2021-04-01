@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Link, Redirect, Switch, Route } from "react-router-dom";
 import "../common.css"
 import Batch2019 from "../../data/batch2019"
-import theimg from "../../media/batch2019/Prateekee.jpg"
 
 export default class Alumni extends Component {
 	  constructor(props) {
@@ -19,7 +18,7 @@ export default class Alumni extends Component {
 	  	this.func();
 	  }
 	  func(){
-	  	console.log(theimg);
+	  	
 	  	
 	  }
 
