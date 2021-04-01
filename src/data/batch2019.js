@@ -55,6 +55,31 @@ const Batch2019 = [
       post: "Public Relations Head",
       img: require("../media/batch2019/phani.jpg"),
    },
+   {
+      name: "Akash Pratim De",
+      post: "Webmaster",
+      img: require("../media/batch2019/akash.jpg"),
+   },
+   {
+      name: "Sankalita Chakraborty",
+      post: "Management Head",
+      img: require("../media/batch2019/sankalita.jpg"),
+   },
+   {
+      name: "Ushasi Ghosh",
+      post: "COMSOC Head",
+      img: require("../media/batch2019/ushasi.jpg"),
+   },
+   {
+      name: "Tanya Barnwal",
+      post: "Advertisement Head",
+      img: require("../media/batch2019/tanya.jpg"),
+   },
+   {
+      name: "Madhurima Paul",
+      post: "Publicity Head",
+      img: require("../media/batch2019/madhurima.jpg"),
+   },
 ];
 
 export default Batch2019;
