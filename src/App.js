@@ -12,8 +12,8 @@ import Events from "./components/events-component/events.component"
 import EventDetails from "./components/events-component/event.details.component"
 import Member from "./components/members-component/members.component.js"
 import Footer from "./components/footer/footer.component.js"
-import Alumni from "./components/alumni-component/alumni.component.js"
 import Loader from './components/loader/loader'
+import Alumni from './components/alumni/alumni'
 
 
 function App() {
